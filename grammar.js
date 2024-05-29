@@ -623,20 +623,32 @@ module.exports = grammar({
       seq(
         "struct",
         "{",
-        field("field", sepBy(",", $.field_declaration)),
-        optional(repeat($._statement)),
+        repeat($._field_entry),
+        optional($._field_entry_last),
         "}"
       ),
 
-    field_declaration: ($) =>
-      prec.left(
-        seq(
-          optional($.visibility_modifier),
-          field("name", alias($.identifier, $.field_identifier)),
-          ":",
-          field("type", choice($._type, alias("var", $.inference_type))),
-          optional(seq("=", field("default", $._expression)))
+    _field_entry: ($) =>
+      choice(
+        field("field", seq($.field_declaration, ",")),
+        field("statement", $._statement),
+      ),
+    _field_entry_last: ($) =>
+      prec(
+        1,
+        choice(
+          field("field", seq($.field_declaration, optional(","))),
+          field("statement", $._statement),
         )
+      ),
+
+    field_declaration: ($) =>
+      seq(
+        optional($.visibility_modifier),
+        field("name", alias($.identifier, $.field_identifier)),
+        ":",
+        field("type", choice($._type, alias("var", $.inference_type))),
+        optional(seq("=", field("default", $._expression)))
       ),
 
     error_expression: ($) =>

@@ -1074,6 +1074,11 @@ struct {
     pub fn init() {}
 };
 
+struct {
+    const size = 4;
+    matrix: [size][size]u69 = undefined,
+};
+
 ---
 
 (source_file
@@ -1090,7 +1095,7 @@ struct {
       name: (field_identifier)
       type: (primitive_type)))
   (struct_expression
-    (function_declaration
+    statement: (function_declaration
       name: (identifier)
       parameters: (parameters)
       body: (block)))
@@ -1098,11 +1103,22 @@ struct {
     field: (field_declaration
       name: (field_identifier)
       type: (primitive_type))
-    (function_declaration
+    statement: (function_declaration
       (visibility_modifier)
       name: (identifier)
       parameters: (parameters)
-      body: (block))))
+      body: (block)))
+  (struct_expression
+    statement: (assignment_statement
+                 name: (identifier)
+                 expression: (integer_literal))
+    field: (field_declaration
+             name: (field_identifier)
+             type: (array_type
+                     size: (identifier)
+                     size: (identifier)
+                     (primitive_type))
+             default: (undefined_literal))))
 
 ============================================
 Struct construction expression
