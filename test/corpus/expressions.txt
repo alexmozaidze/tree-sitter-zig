@@ -891,6 +891,8 @@ Array expression
     [_]u64{5, 6, 7, 8},
 };
 
+[26][26][69]very.Nice{};
+
 ---
 
 (source_file
@@ -926,7 +928,15 @@ Array expression
           (integer_literal)
           (integer_literal)
           (integer_literal)
-          (integer_literal))))))
+          (integer_literal)))))
+  (array_expression
+    size: (integer_literal)
+    size: (integer_literal)
+    size: (integer_literal)
+    type: (field_expression
+            value: (identifier)
+            field: (field_identifier))
+    values: (array_values)))
 
 ============================================
 Anonymous Array expression

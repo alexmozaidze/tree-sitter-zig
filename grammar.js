@@ -63,7 +63,7 @@ module.exports = grammar({
   conflicts: ($) => [
     [$.array_type, $.array_expression],
     [$.assignment_expression],
-    [$.parameter, $._expression]
+    [$.parameter, $._expression],
   ],
 
   rules: {
@@ -668,12 +668,15 @@ module.exports = grammar({
       ),
 
     array_expression: ($) =>
-      seq(
-        repeat(
-          seq("[", field("size", choice($.integer_literal, $.identifier)), "]")
-        ),
-        field("type", $._type),
-        field("values", $.array_values)
+      prec.right(
+        -1,
+        seq(
+          repeat1(
+            seq("[", field("size", choice($.integer_literal, $.identifier)), "]")
+          ),
+          field("type", $._expression),
+          field("values", $.array_values)
+        )
       ),
 
     anonymous_array_expr: ($) =>
