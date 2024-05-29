@@ -413,8 +413,8 @@ u33;
     err: (primitive_type)
     ok: (optional_type
       (primitive_type)))
-  (custom_number_type)
-  (custom_number_type))
+  (primitive_type)
+  (primitive_type))
 
 ============================================
 Call expressions (both build in and normal)
@@ -1173,7 +1173,7 @@ enum { Zero = 0, One = 1};
     variant: (variant_declaration
       name: (enum_identifier)))
   (enum_expression
-    type: (custom_number_type)
+    type: (primitive_type)
     variant: (variant_declaration
       name: (enum_identifier))
     variant: (variant_declaration

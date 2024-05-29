@@ -20,16 +20,7 @@ const PREC = {
 };
 
 const numeric_types = [
-  "i8",
-  "u8",
-  "i16",
-  "u16",
-  "i32",
-  "u32",
-  "i64",
-  "u64",
-  "i128",
-  "u128",
+  /[iu]\d+/,
   "isize",
   "usize",
   "c_short",
@@ -70,11 +61,8 @@ module.exports = grammar({
   extras: ($) => [/\s/, $.line_comment, $.doc_comment],
 
   conflicts: ($) => [
-    [$.optional_type, $.unary_operator],
     [$.array_type, $.array_expression],
-    [$.anonymous_struct_enum, $.anonymous_array_expr],
     [$.assignment_expression],
-    [$.call_expression],
     [$.parameter, $._expression]
   ],
 
@@ -463,15 +451,12 @@ module.exports = grammar({
           $.pointer_type,
           $.error_type,
           $.array_type,
-          $.custom_number_type,
           alias($._struct_standalone, $.struct_expression),
           alias($.identifier, $.type_identifier)
         )
       ),
 
     primitive_type: (_) => choice(...primitive_types),
-
-    custom_number_type: (_) => /[iu]\d+/,
 
     // Having the err field optional cause a bunch of conflicts
     // so when `!<type>` happens, it will show as unary expression
@@ -508,7 +493,6 @@ module.exports = grammar({
             $.optional_type,
             $.pointer_type,
             $.error_type,
-            $.custom_number_type,
             alias($.identifier, $.type_identifier)
           )
         )
