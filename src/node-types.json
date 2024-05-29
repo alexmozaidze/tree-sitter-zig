@@ -108,10 +108,6 @@
           "named": true
         },
         {
-          "type": "custom_number_type",
-          "named": true
-        },
-        {
           "type": "defer_block",
           "named": true
         },
@@ -309,10 +305,6 @@
             "named": true
           },
           {
-            "type": "custom_number_type",
-            "named": true
-          },
-          {
             "type": "error_type",
             "named": true
           },
@@ -377,10 +369,6 @@
       "multiple": true,
       "required": true,
       "types": [
-        {
-          "type": "custom_number_type",
-          "named": true
-        },
         {
           "type": "error_type",
           "named": true
@@ -478,10 +466,6 @@
         },
         {
           "type": "continue_expression",
-          "named": true
-        },
-        {
-          "type": "custom_number_type",
           "named": true
         },
         {
@@ -728,10 +712,6 @@
             "named": true
           },
           {
-            "type": "custom_number_type",
-            "named": true
-          },
-          {
             "type": "defer_block",
             "named": true
           },
@@ -967,10 +947,6 @@
           },
           {
             "type": "continue_expression",
-            "named": true
-          },
-          {
-            "type": "custom_number_type",
             "named": true
           },
           {
@@ -1223,10 +1199,6 @@
             "named": true
           },
           {
-            "type": "custom_number_type",
-            "named": true
-          },
-          {
             "type": "defer_block",
             "named": true
           },
@@ -1415,10 +1387,6 @@
             "named": true
           },
           {
-            "type": "custom_number_type",
-            "named": true
-          },
-          {
             "type": "error_type",
             "named": true
           },
@@ -1530,10 +1498,6 @@
         },
         {
           "type": "continue_expression",
-          "named": true
-        },
-        {
-          "type": "custom_number_type",
           "named": true
         },
         {
@@ -1777,10 +1741,6 @@
           },
           {
             "type": "continue_expression",
-            "named": true
-          },
-          {
-            "type": "custom_number_type",
             "named": true
           },
           {
@@ -2029,10 +1989,6 @@
           },
           {
             "type": "continue_expression",
-            "named": true
-          },
-          {
-            "type": "custom_number_type",
             "named": true
           },
           {
@@ -2292,10 +2248,6 @@
         },
         {
           "type": "continue_expression",
-          "named": true
-        },
-        {
-          "type": "custom_number_type",
           "named": true
         },
         {
@@ -2566,10 +2518,6 @@
           },
           {
             "type": "continue_expression",
-            "named": true
-          },
-          {
-            "type": "custom_number_type",
             "named": true
           },
           {
@@ -2894,10 +2842,6 @@
             "named": true
           },
           {
-            "type": "custom_number_type",
-            "named": true
-          },
-          {
             "type": "defer_block",
             "named": true
           },
@@ -3143,10 +3087,6 @@
           },
           {
             "type": "continue_expression",
-            "named": true
-          },
-          {
-            "type": "custom_number_type",
             "named": true
           },
           {
@@ -3440,10 +3380,6 @@
           "named": true
         },
         {
-          "type": "custom_number_type",
-          "named": true
-        },
-        {
           "type": "defer_block",
           "named": true
         },
@@ -3687,10 +3623,6 @@
             "named": true
           },
           {
-            "type": "custom_number_type",
-            "named": true
-          },
-          {
             "type": "defer_block",
             "named": true
           },
@@ -3880,10 +3812,6 @@
             "named": true
           },
           {
-            "type": "custom_number_type",
-            "named": true
-          },
-          {
             "type": "error_type",
             "named": true
           },
@@ -3994,10 +3922,6 @@
         },
         {
           "type": "continue_expression",
-          "named": true
-        },
-        {
-          "type": "custom_number_type",
           "named": true
         },
         {
@@ -4266,10 +4190,6 @@
             "named": true
           },
           {
-            "type": "custom_number_type",
-            "named": true
-          },
-          {
             "type": "error_type",
             "named": true
           },
@@ -4301,10 +4221,6 @@
         "types": [
           {
             "type": "array_type",
-            "named": true
-          },
-          {
-            "type": "custom_number_type",
             "named": true
           },
           {
@@ -4420,10 +4336,6 @@
           },
           {
             "type": "continue_expression",
-            "named": true
-          },
-          {
-            "type": "custom_number_type",
             "named": true
           },
           {
@@ -4615,10 +4527,6 @@
             "named": true
           },
           {
-            "type": "custom_number_type",
-            "named": true
-          },
-          {
             "type": "error_type",
             "named": true
           },
@@ -4730,10 +4638,6 @@
           },
           {
             "type": "continue_expression",
-            "named": true
-          },
-          {
-            "type": "custom_number_type",
             "named": true
           },
           {
@@ -4976,10 +4880,6 @@
           },
           {
             "type": "continue_expression",
-            "named": true
-          },
-          {
-            "type": "custom_number_type",
             "named": true
           },
           {
@@ -5252,10 +5152,6 @@
             "named": true
           },
           {
-            "type": "custom_number_type",
-            "named": true
-          },
-          {
             "type": "defer_block",
             "named": true
           },
@@ -5500,10 +5396,6 @@
             "named": true
           },
           {
-            "type": "custom_number_type",
-            "named": true
-          },
-          {
             "type": "defer_block",
             "named": true
           },
@@ -5743,10 +5635,6 @@
           },
           {
             "type": "continue_expression",
-            "named": true
-          },
-          {
-            "type": "custom_number_type",
             "named": true
           },
           {
@@ -5999,10 +5887,6 @@
             "named": true
           },
           {
-            "type": "custom_number_type",
-            "named": true
-          },
-          {
             "type": "defer_block",
             "named": true
           },
@@ -6248,10 +6132,6 @@
           },
           {
             "type": "continue_expression",
-            "named": true
-          },
-          {
-            "type": "custom_number_type",
             "named": true
           },
           {
@@ -6544,10 +6424,6 @@
           },
           {
             "type": "continue_expression",
-            "named": true
-          },
-          {
-            "type": "custom_number_type",
             "named": true
           },
           {
@@ -6844,10 +6720,6 @@
             "named": true
           },
           {
-            "type": "custom_number_type",
-            "named": true
-          },
-          {
             "type": "defer_block",
             "named": true
           },
@@ -7121,10 +6993,6 @@
             "named": true
           },
           {
-            "type": "custom_number_type",
-            "named": true
-          },
-          {
             "type": "defer_block",
             "named": true
           },
@@ -7363,10 +7231,6 @@
             "named": true
           },
           {
-            "type": "custom_number_type",
-            "named": true
-          },
-          {
             "type": "defer_block",
             "named": true
           },
@@ -7602,10 +7466,6 @@
           },
           {
             "type": "continue_expression",
-            "named": true
-          },
-          {
-            "type": "custom_number_type",
             "named": true
           },
           {
@@ -7860,10 +7720,6 @@
         },
         {
           "type": "continue_expression",
-          "named": true
-        },
-        {
-          "type": "custom_number_type",
           "named": true
         },
         {
@@ -8168,10 +8024,6 @@
           "named": true
         },
         {
-          "type": "custom_number_type",
-          "named": true
-        },
-        {
           "type": "error_type",
           "named": true
         },
@@ -8268,10 +8120,6 @@
           },
           {
             "type": "continue_expression",
-            "named": true
-          },
-          {
-            "type": "custom_number_type",
             "named": true
           },
           {
@@ -8526,10 +8374,6 @@
           },
           {
             "type": "continue_expression",
-            "named": true
-          },
-          {
-            "type": "custom_number_type",
             "named": true
           },
           {
@@ -8820,10 +8664,6 @@
           "named": true
         },
         {
-          "type": "custom_number_type",
-          "named": true
-        },
-        {
           "type": "defer_block",
           "named": true
         },
@@ -9086,10 +8926,6 @@
           "named": true
         },
         {
-          "type": "custom_number_type",
-          "named": true
-        },
-        {
           "type": "defer_block",
           "named": true
         },
@@ -9342,10 +9178,6 @@
             "named": true
           },
           {
-            "type": "custom_number_type",
-            "named": true
-          },
-          {
             "type": "defer_block",
             "named": true
           },
@@ -9581,10 +9413,6 @@
           },
           {
             "type": "continue_expression",
-            "named": true
-          },
-          {
-            "type": "custom_number_type",
             "named": true
           },
           {
@@ -9832,10 +9660,6 @@
             "named": true
           },
           {
-            "type": "custom_number_type",
-            "named": true
-          },
-          {
             "type": "defer_block",
             "named": true
           },
@@ -10071,10 +9895,6 @@
           },
           {
             "type": "continue_expression",
-            "named": true
-          },
-          {
-            "type": "custom_number_type",
             "named": true
           },
           {
@@ -10319,10 +10139,6 @@
           },
           {
             "type": "continue_expression",
-            "named": true
-          },
-          {
-            "type": "custom_number_type",
             "named": true
           },
           {
@@ -10585,10 +10401,6 @@
           "named": true
         },
         {
-          "type": "custom_number_type",
-          "named": true
-        },
-        {
           "type": "defer_block",
           "named": true
         },
@@ -10829,10 +10641,6 @@
         },
         {
           "type": "continue_expression",
-          "named": true
-        },
-        {
-          "type": "custom_number_type",
           "named": true
         },
         {
@@ -11079,10 +10887,6 @@
             "named": true
           },
           {
-            "type": "custom_number_type",
-            "named": true
-          },
-          {
             "type": "defer_block",
             "named": true
           },
@@ -11318,10 +11122,6 @@
           },
           {
             "type": "continue_expression",
-            "named": true
-          },
-          {
-            "type": "custom_number_type",
             "named": true
           },
           {
@@ -11573,10 +11373,6 @@
           "named": true
         },
         {
-          "type": "custom_number_type",
-          "named": true
-        },
-        {
           "type": "defer_block",
           "named": true
         },
@@ -11821,266 +11617,272 @@
             "named": true
           }
         ]
+      },
+      "statement": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": ";",
+            "named": false
+          },
+          {
+            "type": "anonymous_array_expr",
+            "named": true
+          },
+          {
+            "type": "anonymous_struct_enum",
+            "named": true
+          },
+          {
+            "type": "array_expression",
+            "named": true
+          },
+          {
+            "type": "array_type",
+            "named": true
+          },
+          {
+            "type": "assignment_expression",
+            "named": true
+          },
+          {
+            "type": "assignment_statement",
+            "named": true
+          },
+          {
+            "type": "await_expression",
+            "named": true
+          },
+          {
+            "type": "binary_expression",
+            "named": true
+          },
+          {
+            "type": "block",
+            "named": true
+          },
+          {
+            "type": "boolean_literal",
+            "named": true
+          },
+          {
+            "type": "break_expression",
+            "named": true
+          },
+          {
+            "type": "build_in_call_expr",
+            "named": true
+          },
+          {
+            "type": "call_expression",
+            "named": true
+          },
+          {
+            "type": "char_literal",
+            "named": true
+          },
+          {
+            "type": "compound_assignment_expr",
+            "named": true
+          },
+          {
+            "type": "comptime_block",
+            "named": true
+          },
+          {
+            "type": "continue_expression",
+            "named": true
+          },
+          {
+            "type": "defer_block",
+            "named": true
+          },
+          {
+            "type": "defer_expression",
+            "named": true
+          },
+          {
+            "type": "dereference_expression",
+            "named": true
+          },
+          {
+            "type": "empty_statement",
+            "named": true
+          },
+          {
+            "type": "enum_expression",
+            "named": true
+          },
+          {
+            "type": "enum_literal",
+            "named": true
+          },
+          {
+            "type": "error_expression",
+            "named": true
+          },
+          {
+            "type": "error_type",
+            "named": true
+          },
+          {
+            "type": "field_expression",
+            "named": true
+          },
+          {
+            "type": "float_literal",
+            "named": true
+          },
+          {
+            "type": "for_expression",
+            "named": true
+          },
+          {
+            "type": "function_declaration",
+            "named": true
+          },
+          {
+            "type": "function_signature",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "if_expression",
+            "named": true
+          },
+          {
+            "type": "index_expression",
+            "named": true
+          },
+          {
+            "type": "integer_literal",
+            "named": true
+          },
+          {
+            "type": "multiline_string_literal",
+            "named": true
+          },
+          {
+            "type": "null_literal",
+            "named": true
+          },
+          {
+            "type": "optional_type",
+            "named": true
+          },
+          {
+            "type": "orelse_postfix_expression",
+            "named": true
+          },
+          {
+            "type": "payload_expression",
+            "named": true
+          },
+          {
+            "type": "pointer_type",
+            "named": true
+          },
+          {
+            "type": "primitive_type",
+            "named": true
+          },
+          {
+            "type": "range_pattern_exclusive",
+            "named": true
+          },
+          {
+            "type": "range_pattern_inclusive",
+            "named": true
+          },
+          {
+            "type": "reference_expression",
+            "named": true
+          },
+          {
+            "type": "resume_block",
+            "named": true
+          },
+          {
+            "type": "resume_expression",
+            "named": true
+          },
+          {
+            "type": "return_expression",
+            "named": true
+          },
+          {
+            "type": "string_literal",
+            "named": true
+          },
+          {
+            "type": "struct_construction",
+            "named": true
+          },
+          {
+            "type": "struct_expression",
+            "named": true
+          },
+          {
+            "type": "suspend_block",
+            "named": true
+          },
+          {
+            "type": "suspend_expression",
+            "named": true
+          },
+          {
+            "type": "switch_expression",
+            "named": true
+          },
+          {
+            "type": "test_expression",
+            "named": true
+          },
+          {
+            "type": "try_expression",
+            "named": true
+          },
+          {
+            "type": "type_identifier",
+            "named": true
+          },
+          {
+            "type": "unary_expression",
+            "named": true
+          },
+          {
+            "type": "undefined_literal",
+            "named": true
+          },
+          {
+            "type": "union_expression",
+            "named": true
+          },
+          {
+            "type": "unreachable_expression",
+            "named": true
+          },
+          {
+            "type": "usingnamespace_expression",
+            "named": true
+          },
+          {
+            "type": "while_expression",
+            "named": true
+          }
+        ]
       }
     },
     "children": {
-      "multiple": true,
+      "multiple": false,
       "required": false,
       "types": [
         {
-          "type": "anonymous_array_expr",
-          "named": true
-        },
-        {
-          "type": "anonymous_struct_enum",
-          "named": true
-        },
-        {
-          "type": "array_expression",
-          "named": true
-        },
-        {
-          "type": "array_type",
-          "named": true
-        },
-        {
-          "type": "assignment_expression",
-          "named": true
-        },
-        {
-          "type": "assignment_statement",
-          "named": true
-        },
-        {
-          "type": "await_expression",
-          "named": true
-        },
-        {
-          "type": "binary_expression",
-          "named": true
-        },
-        {
-          "type": "block",
-          "named": true
-        },
-        {
-          "type": "boolean_literal",
-          "named": true
-        },
-        {
-          "type": "break_expression",
-          "named": true
-        },
-        {
-          "type": "build_in_call_expr",
-          "named": true
-        },
-        {
-          "type": "call_expression",
-          "named": true
-        },
-        {
-          "type": "char_literal",
-          "named": true
-        },
-        {
-          "type": "compound_assignment_expr",
-          "named": true
-        },
-        {
-          "type": "comptime_block",
-          "named": true
-        },
-        {
-          "type": "continue_expression",
-          "named": true
-        },
-        {
-          "type": "custom_number_type",
-          "named": true
-        },
-        {
-          "type": "defer_block",
-          "named": true
-        },
-        {
-          "type": "defer_expression",
-          "named": true
-        },
-        {
-          "type": "dereference_expression",
-          "named": true
-        },
-        {
-          "type": "empty_statement",
-          "named": true
-        },
-        {
-          "type": "enum_expression",
-          "named": true
-        },
-        {
-          "type": "enum_literal",
-          "named": true
-        },
-        {
-          "type": "error_expression",
-          "named": true
-        },
-        {
-          "type": "error_type",
-          "named": true
-        },
-        {
-          "type": "field_expression",
-          "named": true
-        },
-        {
-          "type": "float_literal",
-          "named": true
-        },
-        {
-          "type": "for_expression",
-          "named": true
-        },
-        {
-          "type": "function_declaration",
-          "named": true
-        },
-        {
-          "type": "function_signature",
-          "named": true
-        },
-        {
-          "type": "identifier",
-          "named": true
-        },
-        {
-          "type": "if_expression",
-          "named": true
-        },
-        {
-          "type": "index_expression",
-          "named": true
-        },
-        {
-          "type": "integer_literal",
-          "named": true
-        },
-        {
-          "type": "multiline_string_literal",
-          "named": true
-        },
-        {
-          "type": "null_literal",
-          "named": true
-        },
-        {
-          "type": "optional_type",
-          "named": true
-        },
-        {
-          "type": "orelse_postfix_expression",
-          "named": true
-        },
-        {
-          "type": "payload_expression",
-          "named": true
-        },
-        {
-          "type": "pointer_type",
-          "named": true
-        },
-        {
-          "type": "primitive_type",
-          "named": true
-        },
-        {
-          "type": "range_pattern_exclusive",
-          "named": true
-        },
-        {
-          "type": "range_pattern_inclusive",
-          "named": true
-        },
-        {
-          "type": "reference_expression",
-          "named": true
-        },
-        {
-          "type": "resume_block",
-          "named": true
-        },
-        {
-          "type": "resume_expression",
-          "named": true
-        },
-        {
-          "type": "return_expression",
-          "named": true
-        },
-        {
-          "type": "string_literal",
-          "named": true
-        },
-        {
-          "type": "struct_construction",
-          "named": true
-        },
-        {
-          "type": "struct_expression",
-          "named": true
-        },
-        {
           "type": "struct_modifier",
-          "named": true
-        },
-        {
-          "type": "suspend_block",
-          "named": true
-        },
-        {
-          "type": "suspend_expression",
-          "named": true
-        },
-        {
-          "type": "switch_expression",
-          "named": true
-        },
-        {
-          "type": "test_expression",
-          "named": true
-        },
-        {
-          "type": "try_expression",
-          "named": true
-        },
-        {
-          "type": "type_identifier",
-          "named": true
-        },
-        {
-          "type": "unary_expression",
-          "named": true
-        },
-        {
-          "type": "undefined_literal",
-          "named": true
-        },
-        {
-          "type": "union_expression",
-          "named": true
-        },
-        {
-          "type": "unreachable_expression",
-          "named": true
-        },
-        {
-          "type": "usingnamespace_expression",
-          "named": true
-        },
-        {
-          "type": "while_expression",
           "named": true
         }
       ]
@@ -12171,10 +11973,6 @@
         },
         {
           "type": "continue_expression",
-          "named": true
-        },
-        {
-          "type": "custom_number_type",
           "named": true
         },
         {
@@ -12428,10 +12226,6 @@
           },
           {
             "type": "continue_expression",
-            "named": true
-          },
-          {
-            "type": "custom_number_type",
             "named": true
           },
           {
@@ -12708,10 +12502,6 @@
             "named": true
           },
           {
-            "type": "custom_number_type",
-            "named": true
-          },
-          {
             "type": "defer_block",
             "named": true
           },
@@ -12967,10 +12757,6 @@
           },
           {
             "type": "continue_expression",
-            "named": true
-          },
-          {
-            "type": "custom_number_type",
             "named": true
           },
           {
@@ -13275,10 +13061,6 @@
             "named": true
           },
           {
-            "type": "custom_number_type",
-            "named": true
-          },
-          {
             "type": "defer_block",
             "named": true
           },
@@ -13538,10 +13320,6 @@
           "named": true
         },
         {
-          "type": "custom_number_type",
-          "named": true
-        },
-        {
           "type": "defer_block",
           "named": true
         },
@@ -13785,10 +13563,6 @@
             "named": true
           },
           {
-            "type": "custom_number_type",
-            "named": true
-          },
-          {
             "type": "defer_block",
             "named": true
           },
@@ -14002,10 +13776,6 @@
             "named": true
           },
           {
-            "type": "custom_number_type",
-            "named": true
-          },
-          {
             "type": "error_type",
             "named": true
           },
@@ -14106,10 +13876,6 @@
         },
         {
           "type": "continue_expression",
-          "named": true
-        },
-        {
-          "type": "custom_number_type",
           "named": true
         },
         {
@@ -14322,10 +14088,6 @@
             "named": true
           },
           {
-            "type": "custom_number_type",
-            "named": true
-          },
-          {
             "type": "error_type",
             "named": true
           },
@@ -14442,10 +14204,6 @@
           },
           {
             "type": "continue_expression",
-            "named": true
-          },
-          {
-            "type": "custom_number_type",
             "named": true
           },
           {
@@ -14708,10 +14466,6 @@
             "named": true
           },
           {
-            "type": "custom_number_type",
-            "named": true
-          },
-          {
             "type": "defer_block",
             "named": true
           },
@@ -14971,10 +14725,6 @@
             "named": true
           },
           {
-            "type": "custom_number_type",
-            "named": true
-          },
-          {
             "type": "defer_block",
             "named": true
           },
@@ -15223,10 +14973,6 @@
             "named": true
           },
           {
-            "type": "custom_number_type",
-            "named": true
-          },
-          {
             "type": "defer_block",
             "named": true
           },
@@ -15466,10 +15212,6 @@
           },
           {
             "type": "continue_expression",
-            "named": true
-          },
-          {
-            "type": "custom_number_type",
             "named": true
           },
           {
@@ -15915,10 +15657,6 @@
     "named": false
   },
   {
-    "type": "custom_number_type",
-    "named": true
-  },
-  {
     "type": "defer",
     "named": false
   },
@@ -15988,26 +15726,6 @@
   },
   {
     "type": "for",
-    "named": false
-  },
-  {
-    "type": "i128",
-    "named": false
-  },
-  {
-    "type": "i16",
-    "named": false
-  },
-  {
-    "type": "i32",
-    "named": false
-  },
-  {
-    "type": "i64",
-    "named": false
-  },
-  {
-    "type": "i8",
     "named": false
   },
   {
@@ -16104,26 +15822,6 @@
   },
   {
     "type": "type",
-    "named": false
-  },
-  {
-    "type": "u128",
-    "named": false
-  },
-  {
-    "type": "u16",
-    "named": false
-  },
-  {
-    "type": "u32",
-    "named": false
-  },
-  {
-    "type": "u64",
-    "named": false
-  },
-  {
-    "type": "u8",
     "named": false
   },
   {
